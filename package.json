@@ -5,10 +5,14 @@
         "build": "vite build"
     },
     "devDependencies": {
+        "alpinejs": "^3.13.8",
+        "autoprefixer": "^10.4.19",
         "axios": "^1.1.2",
         "laravel-vite-plugin": "^0.6.0",
         "lodash": "^4.17.19",
-        "postcss": "^8.1.14",
+        "normalize.css": "^8.0.1",
+        "postcss": "^8.4.38",
+        "postcss-nested": "^6.0.1",
         "vite": "^3.0.0"
     }
 }
