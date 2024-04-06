@@ -1,0 +1,15 @@
+:root {
+    --white: #fff;
+    --light-gray: #f1f1f1;
+    --medium-light-gray: #eee;
+    --medium-gray: #ccc;
+    --black: #000;
+    --blue: #347ab7;
+    --green: #5db85d;
+    --red: #d95350;
+    --blue-dark: color-mix(in srgb, var(--blue), #000 20%);
+    --green-dark: color-mix(in srgb, var(--green), #000 20%);
+    --red-dark: color-mix(in srgb, var(--red), #000 20%);
+
+    --border-radius: 4px;
+}
