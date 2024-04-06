@@ -1,23 +1,19 @@
-## MLP To-DO - Instructions
+## MLP To-DO
 
-You must demonstrate the following abilities/skills: make models, controllers, migrations, HTML, CSS, blade, Git commits, blade templates, etc. 
+```shell
+# Start laravel sail
+./vendor/bin/sail up
 
-**1. Fork this repo**
+# Migrate and seed with some example tasks
+./vendor/bin/sail artisan migrate --seed
 
-**2. Build front-end**
+# Install & build front-end assets
+./vendor/bin/sail yarn
+./vendor/bin/sail yarn dev
 
-   Layout must be as follows:
-   
-   ![Alt text](assets/site-layout.png?raw=true "Title")
-   Please note that the above image and logo are in the 'assets' folder.
+# Run tests
+./vendor/bin/sail artisan test
+```
+The application will be served at http://localhost.
 
-**3. Build To-Do list functionality** 
 
-     A user should be able to
-     * Create a task.
-     * Delete a task.
-     * Mark a task as completed.
-     
-
-**Good Luck !!! Once done, please send us the link of your repo.**
-   
